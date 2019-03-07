@@ -117,7 +117,7 @@ while True:
         # Put your code here! Be creative!
 
         # create the message to send to the cloud(JSON format)
-        payload = '{{ "timestamp": {}, "device_id": "{}", "moved": {}, accel_x": {}, "accel_y": {}, "accel_z": {}, "direction": {} }}'.format(
+        payload = '{{ "timestamp": {}, "device_id": "{}", "moved": {}, "accel_x": {}, "accel_y": {}, "accel_z": {}, "direction": {} }}'.format(
             int(time.time()),           # timestamp of the event
             "my_device_id",             # the device_id (you can use the device_id variable)
             1,                          # whether the device was moved (1: True, 0: False)
