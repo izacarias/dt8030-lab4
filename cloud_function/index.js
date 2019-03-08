@@ -7,7 +7,7 @@
 var BigQuery = require('@google-cloud/bigquery');
 var projectId = 'YOUR-PROJECT-ID-HERE'; // IMPORTANT!! Enter your project ID here
 var datasetName = 'iotData';
-var tableName = 'position_data';
+var tableName = 'data_event';
 
 var bigquery = new BigQuery({
     projectId: projectId,
